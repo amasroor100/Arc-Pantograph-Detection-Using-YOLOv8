@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Arc', 'pantograph']
+
+roboflow:
+  workspace: ebrar-srw3b
+  project: arc-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ebrar-srw3b/arc-detection/dataset/1
